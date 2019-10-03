@@ -1,0 +1,7 @@
+Question 1
+
+Quel est la complexité de cet algorithme ? Démontrez-le.
+
+Réponse
+
+...

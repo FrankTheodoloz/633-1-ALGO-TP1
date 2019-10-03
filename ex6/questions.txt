@@ -1,0 +1,16 @@
+Question
+
+Pourquoi est-ce que la deuxième fonction est considéré comme O(log(n)) ?
+
+Réponse
+
+...
+
+Question
+
+Pourquoi est-il désirable d'avoir un algorithme ayant une complexité logarithmique ?
+
+Réponse
+
+...
+

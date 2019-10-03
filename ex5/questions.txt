@@ -1,0 +1,15 @@
+Question
+
+Donner le meilleur et le pire cas de complexité dans la version **naïve** de l'algorithme.
+
+Réponse
+
+...
+
+Question
+
+Donner le meilleur et le pire cas de complexité dans la version **améliorée** de l'algorithme.
+
+Réponse
+
+...
