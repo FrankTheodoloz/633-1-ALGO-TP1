@@ -4,4 +4,5 @@ Quelle est la complexité de cet algorithme ?
 
 Réponse
 
-...
+La complexité est constante car il n'y a pas de recherche de valeur. En demandant l'indice n du tableau,
+il y aura toujours une seule itération (un seul test), quelle que soit la valeur demandée ou la longueur du texte entré.

@@ -12,7 +12,7 @@ class NumberList:
         """
         self.list = random.choices(range(0, 11), k=15)
 
-    def get(self, n: int) -> int :
+    def get(self, n: int) -> int:
         """
         Retourne le numéro qui se trouve à l'indice n
         :param n: indice de la valeur
@@ -20,7 +20,7 @@ class NumberList:
         """
         return self.list[n]
 
-    def max(self) -> int :
+    def max(self) -> int:
         """
         Trouve l'indice de la plus grande valeur dans le tableau
         Si plusieurs fois les mêmes valeurs, retourner le premier indice (plus à gauche)
@@ -28,9 +28,15 @@ class NumberList:
         """
         max = -1
         index = -1
-        #TODO: Votre code ici
+
+        for i in range(0, len(self.list)):  # parcours de toutes les valeurs de la liste
+            val_testee = NumberList.get(self, i)
+            if val_testee > max:  # strictement supérieur donc une valeur identique ne change pas l'indice
+                max = val_testee
+                index = i
         return index
 
+
 if __name__ == '__main__':
-    #Vos tests ici
-    pass
+    numberList = NumberList()
+    print(numberList.list, "premier indice du plus grand nombre :", NumberList.max(numberList))

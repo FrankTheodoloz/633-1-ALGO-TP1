@@ -4,4 +4,13 @@ Quel est la complexité de cet algorithme ? Démontrez-le.
 
 Réponse
 
-...
+Pour connaître toutes les combinaisons possibles de trois chiffres qui ont chacun 11 (n) possibilités (de 0 à 10)
+il est nécessaire de faire 1331 itérations soit n^3 ce qui en fait une complexité cubique
+
+
+Expliquez pourquoi nous devons utiliser une moyenne
+
+Réponse
+
+Le temps d'exécution de la fonction equation dépend des ressources, des capacités et de l'utilisations du système (CPU, accès RAM),
+en faisant une moyenne, cela "nivelle" les résultats et les rends plus probables/réalistes.

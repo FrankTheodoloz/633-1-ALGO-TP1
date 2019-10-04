@@ -4,4 +4,4 @@ Quelle est la complexité de cet algorithme ? Expliquez pourquoi!
 
 Réponse:
 
-...
+La complexité est constante car quelque soit la valeur testée il y aura toujours une seule itération (un seul test à faire)
