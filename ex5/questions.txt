@@ -4,7 +4,13 @@ Donner le meilleur et le pire cas de complexité dans la version **naïve** de l
 
 Réponse
 
-...
+Le meilleur cas, ce serait lorsque la valeur cherchée se trouve au tout début de la liste [0, 0] : 1 itération
+le pire cas, c'est lorsque la valeur cherchée se trouve tout à la fin de la liste.
+(10 itération pour une matrice de 2*5, soit x*y, car la matrice n'est pas forcément carrée)
+
+*Toutefois*, étant donné que le résultat n'est retourné qu'une fois toute la matrice parcourue,
+dans toutes les situations, c'est le pire cas qui s'applique pour cette version naïve.
+
 
 Question
 
@@ -12,4 +18,6 @@ Donner le meilleur et le pire cas de complexité dans la version **améliorée**
 
 Réponse
 
-...
+Le meilleur cas, c'est lorsque la valeur cherchée est au tout début de la liste [0, 0] : 1 itération
+le pire cas, c'est lorsque la valeur cherchée se trouve tout à la fin de la liste.
+(10 itération pour une matrice de 2*5, soit x*y, car la matrice n'est pas forcément carrée)

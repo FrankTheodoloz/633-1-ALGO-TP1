@@ -11,7 +11,15 @@ def find_point(matrix: list) -> list:
     :return: Les coordonnées du point trouvé [x, y]
     """
     point = [-1, -1]
-    #TODO: Votre code ici
+    y = 0
+
+    for value_y in matrix:  # parcours des lignes
+        x = 0
+        for value_x in value_y:  # parcours des colonnes
+            if value_x:
+                point = [x, y]
+            x += 1
+        y += 1
     return point
 
 
@@ -20,6 +28,4 @@ if __name__ == '__main__':
     matrice = GenerateMatrix().random_matrix()
 
     # Vos tests ici
-    point = find_point(matrice)
-
-    print(point)
+    print(find_point(matrice))
