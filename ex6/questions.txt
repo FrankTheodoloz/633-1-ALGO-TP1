@@ -4,7 +4,13 @@ Pourquoi est-ce que la deuxième fonction est considéré comme O(log(n)) ?
 
 Réponse
 
-...
+Car à chaque itération, le nombre d'itérations restantes à faire est divisé par deux
+
+pour 3^16 : 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 * 3 = 43046721 (16 itérations)
+log2(16) = 4 (16/2=8/2=4/2=2/2=1) 4 itérations
+soit 3 * 3 = 9 * 9 = 81 * 81 = 6561 * 6561 = 43046721 (4 itérations)
+     1 + 1 = 2 + 2 =  4 +  4 =    8 +    8 =       16
+
 
 Question
 
@@ -12,5 +18,10 @@ Pourquoi est-il désirable d'avoir un algorithme ayant une complexité logarithm
 
 Réponse
 
-...
+Car plus le chiffre n est grand, plus le gain (différence entre itératif et logarithmique) est important.
+Ainsi le temps ainsi que le coût en ressources pour effectuer l'opération sont moindres.
+
+ex:  16 -> 4, rapport 4 (fois moins d'itérations à faire)
+    256 -> 8, rapport 32         "       "
+
 
